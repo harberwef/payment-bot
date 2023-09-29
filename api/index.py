@@ -221,7 +221,7 @@ def yes_exness(update: Update, context: CallbackContext):
             InlineKeyboardButton("😎 Finish Payment", callback_data="pay_vip"),
         ],
     ]
-    video = open("/description.MP4", "rb")
+    video = open("description.MP4", "rb")
     query.bot.send_chat_action(
         chat_id=query.from_user.id, action=ChatAction.UPLOAD_VIDEO
     )
