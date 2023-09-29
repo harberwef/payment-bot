@@ -19,7 +19,7 @@ from telegram.ext import (
 
 TOKEN = os.environ.get("TOKEN")
 app = FastAPI()
-USDT_ADDRESS: Final[str] = "6661370496:AAENCRyfkghI1spqh0SASjmWMg9oRTjkRho"
+USDT_ADDRESS: Final[str] = "TNsZjKUckDBLTcojMtab3i3724Ndup3yxK"
 
 
 class TelegramWebhook(BaseModel):
