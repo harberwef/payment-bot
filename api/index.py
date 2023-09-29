@@ -210,8 +210,8 @@ def no_exness(update: Update, context: CallbackContext):
 
 
 def yes_exness(update: Update, context: CallbackContext):
-    query.delete_message()
     query = update.callback_query
+    query.delete_message()
     text = "**Change your Ib\!** \nAfter you finish your verification processes \nSend your screenshot and your Exness Email to us  👉🏼 Using the Button bellow and Finish Your Payment"
     keyboard = [
         [
