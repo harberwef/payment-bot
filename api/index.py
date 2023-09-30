@@ -156,10 +156,13 @@ def copy_usdt_address(update: Update, context: CallbackContext):
         text=f"Copy the Address below: 👇\n`{USDT_ADDRESS}`\nFinish the payment and send screen shot to @xesniper9",
         parse_mode=ParseMode.MARKDOWN,
     )
+   query = update.callback_query
     keyboard = [
-        [InlineKeyboardButton("🖼️ Send Screenshot", url="https://t.me/xesniper9")]
-    ]
-
+        [
+            InlineKeyboardButton(
+                "🖼️ Send Screenshot", url="https://t.me/xesniper9"
+            )
+        ],
 
 def vip(update: Update, context: CallbackContext):
     query = update.callback_query
