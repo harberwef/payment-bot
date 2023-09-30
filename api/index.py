@@ -149,20 +149,14 @@ Course duration: 1 month and 15 days""",
 def copy_usdt_address(update: Update, context: CallbackContext):
     query = update.callback_query
     keyboard = [
-        [InlineKeyboardButton("🖼️ Send Screenshot", url="https://t.me/xesniper9")]
+        [InlineKeyboardButton("🖼️ Send Screenshot", url="https://t.me/xesniper9")
     ]
     query.bot.send_message(
         chat_id=query.from_user.id,
         text=f"Copy the Address below: 👇\n`{USDT_ADDRESS}`\nFinish the payment and send screen shot to @xesniper9",
         parse_mode=ParseMode.MARKDOWN,
     )
-   query = update.callback_query
-    keyboard = [
-        [
-            InlineKeyboardButton(
-                "🖼️ Send Screenshot", url="https://t.me/xesniper9"
-            )
-        ],
+
 
 def vip(update: Update, context: CallbackContext):
     query = update.callback_query
