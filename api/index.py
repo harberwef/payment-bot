@@ -44,14 +44,14 @@ class TelegramWebhook(BaseModel):
 def start(update: Update, context: CallbackContext):
     keyboard = [
         [
-            InlineKeyboardButton("😎 VIP plan", callback_data="vip_plan"),
+            InlineKeyboardButton("XE VIP PLAN", callback_data="vip_plan"),
         ],
         [
-            InlineKeyboardButton("🎒  Master Class", callback_data="master_plan"),
+            InlineKeyboardButton("MASTER CLASS", callback_data="master_plan"),
         ],
         [
             InlineKeyboardButton(
-                "💁  One to One Mentorship", callback_data="one_to_one"
+                "ONE TO ONE MENTORSHIP", callback_data="one_to_one"
             ),
         ],
     ]
