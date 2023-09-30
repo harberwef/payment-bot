@@ -85,7 +85,7 @@ A big giveaway at the end of the class\nFinish Your Payment Using One of the met
             )
         ],
         [
-            InlineKeyboardButton("📱 USDT(TRC20)", callback_data="copy_usdt_address"),
+            InlineKeyboardButton("🪙 USDT(TRC20)", callback_data="copy_usdt_address"),
         ],
         [
             InlineKeyboardButton("🏦 CBE(Bank)", callback_data="copy_bank_account"),
