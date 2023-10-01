@@ -71,7 +71,7 @@ def master_class(update: Update, context: CallbackContext):
 ✅Access a free-quality gold signal for two month
 ✅24/7 student guidance
 ✅A big giveaway at the end of the class
-✅Course duration: 3 month\nFinish Your Payment Using One of the methods and send the screenshot to @xesniper9""",
+✅Course duration: 3 month\nFinish Your Payment Using One of the methods and send the screenshot to @xesniper9"""
     query = update.callback_query
     keyboard = [
         [
