@@ -140,7 +140,7 @@ def copy_usdt_address(update: Update, context: CallbackContext):
     ]
     query.bot.send_message(
         chat_id=query.from_user.id,
-        text=f"Copy the Address below by clicking the address👇\n`{USDT_ADDRESS}`\nFinish the payment and send screen shot to @xesniper9",
+        text=f"Copy the Address below by clicking the address👇\n`{USDT_ADDRESS}`\nFinish the payment and send screenshot to @xesniper9",
         parse_mode=ParseMode.MARKDOWN,
     )
 
@@ -172,7 +172,7 @@ we require you to have an Exness account. do you have Exness account?
 
 def no_exness(update: Update, context: CallbackContext):
     query = update.callback_query
-    text = "Create Exness Account Using this 👇 Link\n If there is any problem contact us\n**Change your Ib\!** \nAfter you finish your verification processes \nSend your screenshot and your Exness Email to this user\mn  👉🏼 Using the Button bellow"
+    text = "Create Exness Account Using below button👇 Link\n If there is any problem contact us\n**Change your Ib\!** \nAfter you finish your verification processes \nSend your screenshot and your Exness Email to this user\mn  👉🏼 Using the Button bellow"
     keyboard = [
         [
             InlineKeyboardButton(
@@ -200,7 +200,7 @@ def no_exness(update: Update, context: CallbackContext):
 def yes_exness(update: Update, context: CallbackContext):
     query = update.callback_query
     query.delete_message()
-    text = "**Change your Ib\!** \nAfter you finish your verification processes \nSend your screenshot and your Exness Email to us  👉🏼 Using the Button bellow and Finish Your Payment"
+    text = "\nAfter you finish your verification processes \nSend your screenshot and your Exness Email to us  👉🏼 Using the Button bellow and Finish Your Payment"
     keyboard = [
         [
             InlineKeyboardButton("🖼️ Send Screenshot", url="https://t.me/xesniper9"),
