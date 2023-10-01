@@ -67,7 +67,7 @@ def master_class(update: Update, context: CallbackContext):
 ✅Basic to advanced forex trading knowledge
 ✅Advanced Trading Psychology
 ✅Risk and money management
-✅Access our Discord community.
+✅Access our Discord community
 ✅Access a free-quality gold signal for two month
 ✅24/7 student guidance
 ✅A big giveaway at the end of the class
@@ -130,7 +130,7 @@ def one_to_one(update: Update, context: CallbackContext):
 ✅A big giveaway at the end of the class
 ✅Get Xe Sniper Digital Certificate
 ✅Course duration: 1 month and 15 days
-💸Payment: 100$\10,000 birr\nFinish Your Payment Using One of the methods and send the screenshot to @xesniper9""",
+💸Payment: 100$\10000 birr\nFinish Your Payment Using One of the methods and send the screenshot to @xesniper9""",
         reply_markup=InlineKeyboardMarkup(keyboard),
     )
 
