@@ -70,7 +70,8 @@ def master_class(update: Update, context: CallbackContext):
 ✅Access our Discord community.
 ✅Access a free-quality gold signal for two month
 ✅24/7 student guidance
-✅A big giveaway at the end of the class\nFinish Your Payment Using One of the methods and send the screenshot to @xesniper9"""
+✅A big giveaway at the end of the class
+✅Course duration: 3 month\nFinish Your Payment Using One of the methods and send the screenshot to @xesniper9"""
     query = update.callback_query
     keyboard = [
         [
@@ -127,7 +128,7 @@ def one_to_one(update: Update, context: CallbackContext):
 ✅24/7 student guidance
 ✅A big giveaway at the end of the class
 ✅Get Xe Sniper Digital Certificate
-✅Course duration: 1 month and 15 days""",
+✅Course duration: 1 month and 15 days\nFinish Your Payment Using One of the methods and send the screenshot to @xesniper9""",
         reply_markup=InlineKeyboardMarkup(keyboard),
     )
 
