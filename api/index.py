@@ -72,7 +72,6 @@ def master_class(update: Update, context: CallbackContext):
 ✅24/7 student guidance
 ✅A big giveaway at the end of the class
 ✅Course duration: 3 month\nFinish Your Payment Using One of the methods and send the screenshot to @xesniper9""",
-💸Payment: 500$
     query = update.callback_query
     keyboard = [
         [
@@ -130,7 +129,7 @@ def one_to_one(update: Update, context: CallbackContext):
 ✅A big giveaway at the end of the class
 ✅Get Xe Sniper Digital Certificate
 ✅Course duration: 1 month and 15 days
-💸Payment: 100$ or 10000 birr\nFinish Your Payment Using One of the methods and send the screenshot to @xesniper9""",
+💸Payment: 500$\nFinish Your Payment Using One of the methods and send the screenshot to @xesniper9""",
         reply_markup=InlineKeyboardMarkup(keyboard),
     )
 
