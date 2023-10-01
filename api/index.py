@@ -202,13 +202,13 @@ def no_exness(update: Update, context: CallbackContext):
 def yes_exness(update: Update, context: CallbackContext):
     query = update.callback_query
     query.delete_message()
-    text = "\nAfter you finish your verification processes \nSend your screenshot and your Exness Email to us  👉🏼 Using the Button bellow and Finish Your Payment"
+    text = "\nAfter you finish your verification processes \nSend your screenshot and your Exness Email to us 👇 Using the Button bellow and Finish Your Payment"
     keyboard = [
         [
             InlineKeyboardButton("🖼️ Send Screenshot", url="https://t.me/xesniper9"),
         ],
         [
-            InlineKeyboardButton("😎 Finish Payment", callback_data="pay_vip"),
+            InlineKeyboardButton("😎 Finish Payment 10$", callback_data="pay_vip"),
         ],
     ]
     video = open("description.MP4", "rb")
