@@ -71,7 +71,8 @@ def master_class(update: Update, context: CallbackContext):
 ✅Access a free-quality gold signal for two month
 ✅24/7 student guidance
 ✅A big giveaway at the end of the class
-✅Course duration: 3 month\nFinish Your Payment Using One of the methods and send the screenshot to @xesniper9"""
+✅Course duration: 3 month
+💸Payment: 500$\nFinish Your Payment Using One of the methods and send the screenshot to @xesniper9""",
     query = update.callback_query
     keyboard = [
         [
@@ -128,7 +129,8 @@ def one_to_one(update: Update, context: CallbackContext):
 ✅24/7 student guidance
 ✅A big giveaway at the end of the class
 ✅Get Xe Sniper Digital Certificate
-✅Course duration: 1 month and 15 days\nFinish Your Payment Using One of the methods and send the screenshot to @xesniper9""",
+✅Course duration: 1 month and 15 days
+💸Payment: 100$\10,000 birr\nFinish Your Payment Using One of the methods and send the screenshot to @xesniper9""",
         reply_markup=InlineKeyboardMarkup(keyboard),
     )
 
@@ -162,6 +164,7 @@ def vip(update: Update, context: CallbackContext):
 ✅ XE SNIPER E-BOOK  
 ✅ LIVE TRADES
 ✅ LEARN ABOUT MONEY AND RISK MANAGMENT
+💸Payment: 10$
 
 To join xe sniper vip signal 
 we require you to have an Exness account. do you have Exness account?
@@ -172,7 +175,7 @@ we require you to have an Exness account. do you have Exness account?
 
 def no_exness(update: Update, context: CallbackContext):
     query = update.callback_query
-    text = "Create Exness Account Using below button👇 Link\n If there is any problem contact us\nAfter you finish your verification processes \nSend your screenshot and your Exness Email to this user\mn  👉🏼 Using the Button bellow"
+    text = "Create Exness Account Using below button👇 Link\n If there is any problem contact us\nAfter you finish your verification processes \nSend your screenshot and your Exness Email to this user\mn  👉🏼 Using the Button below"
     keyboard = [
         [
             InlineKeyboardButton(
