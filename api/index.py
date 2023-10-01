@@ -112,7 +112,7 @@ def one_to_one(update: Update, context: CallbackContext):
                 "💳 Credit Card", url="https://buy.stripe.com/7sI9B264Mdwl4ww146"
             )
         ],
-        [InlineKeyboardButton("USDT(TRC20)", callback_data="copy_usdt_address")],
+        [InlineKeyboardButton("🪙USDT(TRC20)", callback_data="copy_usdt_address")],
     ]
     query.delete_message()
     query.answer()
@@ -172,7 +172,7 @@ we require you to have an Exness account. do you have Exness account?
 
 def no_exness(update: Update, context: CallbackContext):
     query = update.callback_query
-    text = "Create Exness Account Using below button👇 Link\n If there is any problem contact us\n**Change your Ib\!** \nAfter you finish your verification processes \nSend your screenshot and your Exness Email to this user\mn  👉🏼 Using the Button bellow"
+    text = "Create Exness Account Using below button👇 Link\n If there is any problem contact us\nAfter you finish your verification processes \nSend your screenshot and your Exness Email to this user\mn  👉🏼 Using the Button bellow"
     keyboard = [
         [
             InlineKeyboardButton(
@@ -180,7 +180,7 @@ def no_exness(update: Update, context: CallbackContext):
             )
         ],
         [
-            InlineKeyboardButton("🖼️ Send Screenshot", url="https://t.me/xesniper9"),
+            InlineKeyboardButton("Send Screenshot", url="https://t.me/xesniper9"),
         ],
         [
             InlineKeyboardButton("💬 Contact Us", url="https://t.me/xesniper9"),
@@ -233,7 +233,7 @@ def pay_vip(update: Update, context: CallbackContext):
             ),
         ],
         [
-            InlineKeyboardButton("USDT(TRC20)", callback_data="copy_usdt_address"),
+            InlineKeyboardButton("🪙USDT(TRC20)", callback_data="copy_usdt_address"),
         ],
     ]
     query.bot.send_message(
