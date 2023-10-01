@@ -140,7 +140,7 @@ def copy_usdt_address(update: Update, context: CallbackContext):
     ]
     query.bot.send_message(
         chat_id=query.from_user.id,
-        text=f"Copy the Address below: 👇\n`{USDT_ADDRESS}`\nFinish the payment and send screen shot to @xesniper9",
+        text=f"Copy the Address below by clicking the address👇\n`{USDT_ADDRESS}`\nFinish the payment and send screen shot to @xesniper9",
         parse_mode=ParseMode.MARKDOWN,
     )
 
