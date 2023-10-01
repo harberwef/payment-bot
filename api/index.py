@@ -64,19 +64,13 @@ def start(update: Update, context: CallbackContext):
 def master_class(update: Update, context: CallbackContext):
     text = """XE Sniper Master Class Program
 
-Basic to advanced forex trading knowledge
-
-Advanced Trading Psychology
-
-Risk and money management
-
-Access our Discord community.
-
-Access a free-quality gold signal for two month
-
-24/7 student guidance
-
-A big giveaway at the end of the class\nFinish Your Payment Using One of the methods and send the screenshot to @xesniper9"""
+✅Basic to advanced forex trading knowledge
+✅Advanced Trading Psychology
+✅Risk and money management
+✅Access our Discord community.
+✅Access a free-quality gold signal for two month
+✅24/7 student guidance
+✅A big giveaway at the end of the class\nFinish Your Payment Using One of the methods and send the screenshot to @xesniper9"""
     query = update.callback_query
     keyboard = [
         [
@@ -125,23 +119,15 @@ def one_to_one(update: Update, context: CallbackContext):
         chat_id=query.from_user.id,
         text="""XE Sniper One to One Mentorship Program
 
-Basic to advanced forex trading knowledge
-
-Advanced Trading Psychology
-
-Risk and money management
-
-Access our Discord community.
-
-Access a free-quality gold signal for one month
-
-24/7 student guidance
-
-A big giveaway at the end of the class
-
-Get Xe Sniper Digital Certificate
-
-Course duration: 1 month and 15 days""",
+✅Basic to advanced forex trading knowledge
+✅Advanced Trading Psychology
+✅Risk and money management
+✅Access our Discord community.
+✅Access a free-quality gold signal for one month
+✅24/7 student guidance
+✅A big giveaway at the end of the class
+✅Get Xe Sniper Digital Certificate
+✅Course duration: 1 month and 15 days""",
         reply_markup=InlineKeyboardMarkup(keyboard),
     )
 
