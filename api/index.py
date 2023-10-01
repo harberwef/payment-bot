@@ -174,7 +174,7 @@ we require you to have an Exness account. do you have Exness account?
 
 def no_exness(update: Update, context: CallbackContext):
     query = update.callback_query
-    text = "Create Exness Account Using below button👇 Link\n If there is any problem contact us\nAfter you finish your verification processes \nSend your screenshot and your Exness Email to this user\mn  👉🏼 Using the Button below"
+    text = "Create Exness Account Using below button👇\n If there is any problem contact us\nAfter you finish your verification processes \nSend your screenshot and your Exness Email to this username👇Use the Button below"
     keyboard = [
         [
             InlineKeyboardButton(
@@ -227,7 +227,7 @@ def yes_exness(update: Update, context: CallbackContext):
 def pay_vip(update: Update, context: CallbackContext):
     query = update.callback_query
     query.delete_message()
-    text = "👉🏼 Using the Button bellow and Finish Your Payment and Send the screenshot to Us"
+    text = "👉🏼 Using the Button below and Finish Your Payment and Send the screenshot to Us"
     keyboard = [
         [
             InlineKeyboardButton(
