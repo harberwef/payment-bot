@@ -56,7 +56,7 @@ def start(update: Update, context: CallbackContext):
         ],
     ]
     update.message.reply_text(
-        """Welcome to our XE SNIPER Subscription Bot""",
+        """Welcome to our XE SNIPER Subscription Bot\nWhat do you want?""",
         reply_markup=InlineKeyboardMarkup(keyboard),
     )
 
