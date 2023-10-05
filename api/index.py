@@ -203,7 +203,7 @@ def no_exness(update: Update, context: CallbackContext):
 def yes_exness(update: Update, context: CallbackContext):
     query = update.callback_query
     query.delete_message()
-    text = "https://one.exness-track.com/a/f5l76iz61m\nAfter you finish your verification processes \nSend your screenshot and your Exness Email to us 👇 Using the Button bellow and Finish Your Payment"
+    text = ""https://one.exness-track.com/a/f5l76iz61m"\nAfter you finish your verification processes \nSend your screenshot and your Exness Email to us 👇 Using the Button bellow and Finish Your Payment"
     keyboard = [
         [
             InlineKeyboardButton("🖼️ Send Screenshot", url="https://t.me/xesniper9"),
