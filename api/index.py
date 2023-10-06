@@ -164,7 +164,7 @@ def vip(update: Update, context: CallbackContext):
 ✅ XE SNIPER E-BOOK  
 ✅ LIVE TRADES
 ✅ LEARN ABOUT MONEY AND RISK MANAGMENT
-💸Payment: 10$
+💸Payment: 10$ for one Month
 
 To join xe sniper vip signal 
 we require you to have an Exness account. do you have Exness account?
