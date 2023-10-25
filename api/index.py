@@ -228,7 +228,7 @@ def yes_exness(update: Update, context: CallbackContext):
 def pay_vip(update: Update, context: CallbackContext):
     query = update.callback_query
     query.delete_message()
-    text = "👉🏼 Using the Button below and Finish Your Payment and Send the screenshot to Us"
+    text = "👉🏼 Using the Button below and Finish Your Payment 10$ and Send the screenshot to Us"
     keyboard = [
         [
             InlineKeyboardButton(
