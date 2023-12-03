@@ -72,7 +72,7 @@ def master_class(update: Update, context: CallbackContext):
 ✅24/7 student guidance
 ✅A big giveaway at the end of the class
 ✅Course duration: 3 month
-💸Payment: 80$ or 8000 for this week\nFinish Your Payment Using One of the methods and send the screenshot to @xesniper9"""
+💸Payment: 100$ or 10000 for this week\nFinish Your Payment Using One of the methods and send the screenshot to @xesniper9"""
     query = update.callback_query
     keyboard = [
         [
