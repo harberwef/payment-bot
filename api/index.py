@@ -68,7 +68,7 @@ def master_class(update: Update, context: CallbackContext):
 ✅Advanced Trading Psychology
 ✅Risk and money management
 ✅Access our Discord community
-✅Access a free-quality gold signal for two month
+✅Access a free-quality gold signal for one month
 ✅24/7 student guidance
 ✅A big giveaway at the end of the class
 ✅Course duration: 3 month
