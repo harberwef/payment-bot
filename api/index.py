@@ -103,16 +103,6 @@ def copy_bank_account(update: Update, context: CallbackContext):
         text="TEYIBA MOHAMMED \n```1000540470573```",
         parse_mode=ParseMode.MARKDOWN,
     )
-    
-def copy_partner_link(update: Update, context: CallbackContext):
-    query = update.callback_query
-    query.delete_message()
-    query.bot.send_message(
-        chat_id=query.from_user.id,
-        text="partner Link \n```https://one.exness-track.com/a/f5l76iz61m```",
-        parse_mode=ParseMode.MARKDOWN,
-    )
-
 
 
 def one_to_one(update: Update, context: CallbackContext):
