@@ -209,7 +209,7 @@ def yes_exness(update: Update, context: CallbackContext):
             InlineKeyboardButton("🖼️ Send Screenshot", url="https://t.me/xesniper9"),
         ],
         [
-            InlineKeyboardButton("Partner link", url="copy_partner_link"),
+            InlineKeyboardButton("Partner link", url="https://one.exness-track.com/a/f5l76iz61m"),
         ],
         [
             InlineKeyboardButton("😎 Finish Payment 10$", callback_data="pay_vip"),
